@@ -1,6 +1,6 @@
 <template>
  <div>
-   
+   <router-view></router-view>
  </div>
 </template>
 
@@ -21,8 +21,7 @@
 
    },
    mounted() {
-    // this.$router.push('/Login')
-    // this.$router.push('/Homepage')
+
    },
    watch: {
 
@@ -36,43 +35,3 @@
 <style scoped lang='scss'>
 
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,9 @@
 <template>
  <div>
-   
+ <div class='img'>
+    <img src="http://img4.imgtn.bdimg.com/it/u=1855556472,1407018376&fm=26&gp=0.jpg" alt="">
+ </div>
+
  </div>
 </template>
 
@@ -21,8 +24,7 @@
 
    },
    mounted() {
-    // this.$router.push('/Login')
-    // this.$router.push('/Homepage')
+
    },
    watch: {
 
@@ -34,45 +36,7 @@
 </script>
 
 <style scoped lang='scss'>
-
+.img{
+    margin:100px 700px;
+}
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
